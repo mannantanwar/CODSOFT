@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.main .box{
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;   
+}
+.main{
+    height: 644px;
+    background-image: url(img/bg.jpg);
+    /* opacity: 0.8; */
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: max(1200px,100vw);
+    position: relative;
+}
+.header ul{
+    list-style: none;
+    gap: 50px;
+}
+
+.header{
+    justify-content: space-between;
+    background-color: rgba(248, 243, 243, 0.021);
+    /* opacity: 0.5; */
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    height: 10vh;
+    padding: 0 40px;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.about{
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.asection{
+    /* justify-content: space-around; */
+    position: relative;
+    padding: 40px;
+    height: 185px;
+}
+.pic{
+    background-image: url(img/main.jpg);
+    position: absolute;
+    right: 0px;
+    width: 29vw;
+    top: -8px;
+    justify-content: center;
+    height: 100%;
+    border-top-left-radius: 200px;
+    border-end-start-radius: 200px;
+    align-items: center;
+}
+.pfp{
+    /* background-color: white; */
+    position: relative;
+    right: -77px;
+    /* border: 2px solid red; */
+    height: 241px;
+    width: 241px;
+}
+.pfp img{
+    height: 241px;
+    width: 241px;
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+}
+.p{
+    max-width: 60vw;
+    font-size: 23px;
+}
+.skills{
+    max-height: 30vh;
+    /* background-color: bisque; */
+}
+.s-section{
+    gap: 10px;
+}
+.skills{
+    padding:20px;
+    position: relative;
+    font-size: 23px;
+}
+.s-section{
+    padding-top: 20px;
+    padding-left: 40px;
+    gap: 75px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    padding: 20px;
+    position: relative;
+}
+.p-section{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 23px;
+    gap: 150px;
+}
+.heading{
+    padding-bottom: 20px;
+}
+.d{
+    gap: 20px;
+    padding-left: 20px;
+}
+.p1{
+    padding-bottom: 20px;
+}
+.demo{
+    height: 48px;
+    width: 95px;
+    background-color: #373535;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+}
+.demo:hover{
+    background-color:#645d5d;
+}
+.d a ,.resume a{
+    text-decoration: none;
+}
+.resume{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.links a{
+    color: rgba(255, 255, 255, 0.7);
+}
