@@ -1,2 +1,2 @@
 # CODSOFT
-intern projects
+ CODSOFT Projects
