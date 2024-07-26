@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.main{
+    height: 1010px;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/b/shopify-brochure2-assets/d6871d3f4578bf4ec7e7d85f961fe559.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.flex{
+    display: flex;
+}
+.heading{
+    padding-bottom: 40px;
+}
+.content{
+    padding-top: 30px;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content :nth-child(2){
+    font-size: 56px;
+    font-weight: 700;
+}
+.content :nth-child(3){
+    font-size: 56px;
+    font-weight: 700;
+}
+.metacontent{
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.metacontent :nth-child(1){
+    font-size: 22px;
+    font-weight: 400;
+}
+.metacontent :nth-child(3){
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn{
+    background-color: white;
+    width: 31vw;
+    height: 5.5vw;
+    border-radius: 32px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    margin: 20px 0;
+}
+.btn :nth-child(2){
+    font-weight: 700;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+}
+.btn :nth-child(1){
+    font-size: 16px;
+    border-radius: 32px;
+}
+.btn button{
+    background-color: white;
+    border: none;
+    padding: 18px;  
+    border-radius: 32px; 
+}
+.content img{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 50%;
+    width: 55%;
+}
+.rows{
+    margin: auto;
+    max-width: 85vw;
+    gap: 55px;
+}
+.card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 28vw;
+}
+.sep{
+    background-color: grey;
+    margin: 60px 0;
+    height: 1px;
+}
+.companies{
+    max-width:85vw ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 40vh;
+    margin: auto;
+    justify-content: center;
+    align-items:center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer :nth-child(1){
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer :nth-child(2){
+    font-size: 20px;
+    font-weight: 700;
+}
+.fbtn{
+    font-weight: 700;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    padding: 18px;
+}
